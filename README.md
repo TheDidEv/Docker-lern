@@ -159,3 +159,23 @@ delete image:
 ```bash
 docker rmi [image id]
 ```
+
+info about docker
+```bash
+docker info
+```
+
+
+## Docker swarm
+- Docker Swarm – це нескладний оркестратор для контейнерів, який доступний з коробки. Аналог Kubernetis.
+
+Initialize docker swarm:
+```bash
+docker swarm init
+```
+- ми можемо побачти ID нашого docker swarm за допомогою клманди ```docker info``` -> ```NodeID: [some id]```
+
+- Список вузлів у swarm:
+```bash
+docker node ls
+```
